@@ -2,7 +2,7 @@ let
   pkgs = import <nixpkgs> { };
   hi = (pkgs.hello.overrideAttrs (_: {
     a = "7";
-    # postFixup = "false";
+    preBuild = "sleep infinity";
   }));
   jobs = {
     job = pkgs.releaseTools.aggregate {
