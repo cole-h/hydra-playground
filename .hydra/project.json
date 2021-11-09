@@ -12,7 +12,7 @@
     "inputs": {
         "generator_config": {
             "type": "git",
-            "value": "https://github.com/cole-h/hydra-playground.git main",
+            "value": "https://github.com/cole-h/hydra-playground.git flake",
             "emailresponsible": false
         },
         "generator": {
