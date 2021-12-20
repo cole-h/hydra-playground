@@ -1,7 +1,7 @@
 let
   pkgs = import <nixpkgs> { };
   hi = (pkgs.hello.overrideAttrs (_: {
-    a = "7";
+    b = "3";
     # postFixup = "false";
   }));
   jobs = {
